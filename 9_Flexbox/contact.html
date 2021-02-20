@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> Ana's eerste website poging </title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div id="green">
+      <h1 class="border">Dit is mijn eerste website</h1>
+    </div>
+  </header>
+
+  <main>
+    <div class="box-1">
+      <nav class="navigation-links">
+        <ul class="ul-reset">
+          <li> <a href="index.html"> Home </a></li>
+          <li> <a href="about.html"> About </a> </li>
+          <li> <a href="contact.html"> Contact </a> </li>
+          <li> <a href="blog.html"> Blog </a> </li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="Form-container">
+      <form name="contact" method="POST" data-netlify="true">
+        <p>
+          <label>Name: <input type="text" name="name" /></label>
+        </p>
+        <p>
+          <label> Email:<input type="email" name="email" /></label>
+        </p>
+        <p>
+          <label> Subject: <input type="text" name="Subject" /></label>
+        </p>
+        <p>
+          <label> Message: <textarea rows="10" cols="30" name="message"></textarea></label>
+        </p>
+        <p>
+          <button type="submit">Send</button>
+        </p>
+      </form>
+    </div>
+
+  </main>
+</body>
+
+</html>
